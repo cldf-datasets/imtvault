@@ -1,0 +1,20 @@
+{
+    "creators": [
+        {
+            "name": "Sebastian Nordhoff"
+        },
+        {
+            "name": "Robert Forkel"
+        }
+    ],
+    "title": "IMT Vault",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}
