@@ -2,7 +2,6 @@
 
 [![CLDF validation](https://github.com/cldf-datasets/imtvault/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/imtvault/actions?query=workflow%3ACLDF-validation)
 
-
 Interlinear Glossed Text extracted from linguistic literature.
 
 

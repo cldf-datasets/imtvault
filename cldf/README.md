@@ -1,6 +1,6 @@
 <a name="ds-genericmetadatajson"> </a>
 
-# Generic IMT Vault
+# Generic IMTVault
 
 **CLDF Metadata**: [Generic-metadata.json](./Generic-metadata.json)
 
@@ -12,13 +12,15 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://imtvault.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/imtvault
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/imtvault/tree/2e6c255">cldf-datasets/imtvault 2e6c255</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.6">Glottolog v4.6</a></li><li><a href="https://github.com/langsci/raw_texfiles/tree/9e915a1">langsci/raw_texfiles 9e915a1</a></li><li><a href="https://github.com/xrotwang/glossa_xml/tree/7e315aa">xrotwang/glossa_xml 7e315aa</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/imtvault/tree/d37e16b">cldf-datasets/imtvault d37e16b</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.6">Glottolog v4.6</a></li><li><a href="https://github.com/langsci/raw_texfiles/tree/9e915a1">langsci/raw_texfiles 9e915a1</a></li><li><a href="https://github.com/xrotwang/glossa_xml/tree/7e315aa">xrotwang/glossa_xml 7e315aa</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | imtvault
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
 
 ## <a name="table-contributionscsv"></a>Table [contributions.csv](./contributions.csv)
+
+Source publications from which IGT examples are extracted are listed as Contributions.
 
 property | value
  --- | ---
@@ -43,6 +45,7 @@ property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
 [dc:extent](http://purl.org/dc/terms/extent) | 1030
+[rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment) | We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.
 
 
 ### Columns
@@ -80,8 +83,8 @@ Name/Property | Datatype | Description
 [Meta_Language_ID](http://cldf.clld.org/v1.0/terms.rdf#metaLanguageReference) | `string` | References the language of the translated text<br>References [languages.csv::ID](#table-languagescsv)
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
 `LGR_Conformance_Level` | `string` | 
-`Language_Name` | `string` | 
-`Abbreviations` | `json` | 
+`Language_Name` | `string` | Name of the object language as used in the source publication.
+`Abbreviations` | `json` | Mapping of gloss abbreviations used in the examples to descriptions of their meaning.
 [Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
 [Contribution_ID](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | `string` | References [contributions.csv::ID](#table-contributionscsv)
 

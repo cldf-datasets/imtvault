@@ -25,16 +25,16 @@ class Dataset(BaseDataset):
             'git -C {} pull --recurse-submodules'.format(self.dir.resolve()), shell=True)
 
     def _schema(self, cldf):
-        cldf.add_component(
+        t = cldf.add_component(
             'ContributionTable',
             {
                 'name': 'Examples_Count',
                 'datatype': 'integer',
             },
         )
-        cldf['ContributionTable', 'ID'].valueUrl = URITemplate(
-            'https://langsci-press.org/catalog/book/{ID}')
-        cldf.add_component(
+        t.common_props['dc:description'] = \
+            "Source publications from which IGT examples are extracted are listed as Contributions."
+        t = cldf.add_component(
             'LanguageTable',
             {
                 'name': 'Examples_Count',
@@ -45,6 +45,9 @@ class Dataset(BaseDataset):
                 'datatype': 'number',
             },
         )
+        t.common_props['rdfs:comment'] = \
+            "We add a pseudo-language with ID `undefined` to be able to add examples with unknown " \
+            "object language."
         cldf.add_component(
             'ExampleTable',
             {
@@ -55,9 +58,12 @@ class Dataset(BaseDataset):
             },
             {
                 'name': 'Language_Name',
+                "dc:description": "Name of the object language as used in the source publication.",
             },
             {
                 'name': 'Abbreviations',
+                "dc:description": "Mapping of gloss abbreviations used in the examples to "
+                                  "descriptions of their meaning.",
                 'datatype': 'json',
             },
             {
@@ -69,7 +75,6 @@ class Dataset(BaseDataset):
                 'name': 'Contribution_ID',
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             },
-            # FIXME: add coorination, time, modality, polarity!?
         )
         cldf['ExampleTable', 'Analyzed_Word'].separator = '\t'
         cldf['ExampleTable', 'Gloss'].separator = '\t'
@@ -133,8 +138,6 @@ class Dataset(BaseDataset):
                 lgs.update([ex.Language_ID])
                 for src in pub.example_sources(ex):
                     sources[src.id] = src
-            #if len(args.writer.objects['ExampleTable']) > 1000:
-            #    break
 
         bibkey_map = {}
         entries = []

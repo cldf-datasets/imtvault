@@ -9,32 +9,32 @@
     "dc:identifier": "https://imtvault.org",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
-    "dc:title": "IMT Vault",
+    "dc:title": "IMTVault",
     "dcat:accessURL": "https://github.com/cldf-datasets/imtvault",
     "prov:wasDerivedFrom": [
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/imtvault",
-            "dc:created": "2e6c255"
+            "rdf:type": "prov:Entity",
+            "dc:created": "d37e16b",
+            "dc:title": "Repository"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.6"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v4.6",
+            "dc:title": "Glottolog"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
             "rdf:about": "https://github.com/langsci/raw_texfiles",
-            "dc:created": "9e915a1"
+            "rdf:type": "prov:Entity",
+            "dc:created": "9e915a1",
+            "dc:title": "Repository"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
             "rdf:about": "https://github.com/xrotwang/glossa_xml",
-            "dc:created": "7e315aa"
+            "rdf:type": "prov:Entity",
+            "dc:created": "7e315aa",
+            "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -52,6 +52,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
+            "dc:description": "Source publications from which IGT examples are extracted are listed as Contributions.",
             "dc:extent": 843,
             "tableSchema": {
                 "columns": [
@@ -62,7 +63,6 @@
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "required": true,
-                        "valueUrl": "https://langsci-press.org/catalog/book/{ID}",
                         "name": "ID"
                     },
                     {
@@ -103,6 +103,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
             "dc:extent": 1030,
+            "rdfs:comment": "We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.",
             "tableSchema": {
                 "columns": [
                     {
@@ -257,9 +258,11 @@
                         "name": "LGR_Conformance_Level"
                     },
                     {
+                        "dc:description": "Name of the object language as used in the source publication.",
                         "name": "Language_Name"
                     },
                     {
+                        "dc:description": "Mapping of gloss abbreviations used in the examples to descriptions of their meaning.",
                         "datatype": "json",
                         "name": "Abbreviations"
                     },
