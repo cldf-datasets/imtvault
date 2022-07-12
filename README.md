@@ -2,7 +2,7 @@
 
 [![CLDF validation](https://github.com/cldf-datasets/imtvault/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/imtvault/actions?query=workflow%3ACLDF-validation)
 
-Interlinear Glossed Text extracted from linguistic literature.
+[CLDF dataset](cldf/) containing Interlinear Glossed Text extracted from linguistic literature.
 
 
 ## How to cite
@@ -99,6 +99,7 @@ Distribution of examples in IMTVault across the languages of the world:
 - Aldridge, Edith. 2010. Clause-internal Wh-movement in Archaic Chinese. In Journal of East Asian Linguistics, 1-36. Springer. [DOI: 10.1007/s10831-009-9054-z](https://doi.org/10.1007/s10831-009-9054-z)
 - Aldridge, Edith. 2018. C-T inheritance and the left periphery in Old Japanese. Glossa: a journal of general linguistics 3(1). Open Library of Humanities. [DOI: 10.5334/gjgl.254](https://doi.org/10.5334/gjgl.254)
 - Aldridge, Edith. 2019. Subject/non-subject movement asymmetries in Late Archaic Chinese. Glossa: a journal of general linguistics 4(1). Open Library of Humanities. [DOI: 10.5334/gjgl.743](https://doi.org/10.5334/gjgl.743)
+- Alexander, James D. 1981. Case-marking and passivity in Easter Island Polynesian. Oceanic Linguistics 20. 131–149.
 - Alexiadou, Artemis. 2014. Multiple Determiners and the Structure of DPs. (Linguistik Aktuell/Linguistics Today, 211.) Amsterdam: John Benjamins.
 - Alexiadou, Artemis. 2014. The problem with internally caused change-of-state verbs. Linguistics 52. 879-910. [DOI: 10.1515/ling-2014-0011](https://doi.org/10.1515/ling-2014-0011)
 - Alexiadou, Artemis. 2018. -Able adjectives and the syntax of psych verbs. Glossa: a journal of general linguistics 3(1). Open Library of Humanities. [DOI: 10.5334/gjgl.498](https://doi.org/10.5334/gjgl.498)
@@ -858,6 +859,7 @@ Distribution of examples in IMTVault across the languages of the world:
 - Deutscher, Guy. 2000. Syntactic change in Akkadian. Oxford, UK: Oxford University Press.
 - De Veaugh-Geiss, Joseph P. 2021. nà-Cleft (non-)exhaustivity: Variability in Akan. Glossa: a journal of general linguistics 6(1). Open Library of Humanities. [DOI: 10.16995/glossa.5698](https://doi.org/10.16995/glossa.5698)
 - Devitt, Dan. 1990. The diachronic development of semantics in copulas. In, 103-115. [DOI: 10.3765/bls.v16i0.1720](https://doi.org/10.3765/bls.v16i0.1720)
+- De Vriendt, Sera and Vandeweghe, Willy and Van de Craen, Piet. 1991. Combinatorial aspects of modal particles in Dutch. Multilingua 10.1/2. 43–59.
 - de Vries, Lourens J. 2004. A short grammar of Inanwatan: an endangered language of the Bird's head of Papua, Indonesia. (Pacific Linguistics, 560.) Canberra: Research School of Pacific and Asian Studies, Australian National University. xii+156pp.
 - de Vries, Hanna. 2017. Two kinds of distributivity. Natural Language Semantics 25. 173–197.
 - de Vries, Lourens. 1995. Demonstratives, referent identification and topicality in Wambon and some other Papuan languages. Journal of Pragmatics 24. 513–533.
@@ -975,6 +977,7 @@ Distribution of examples in IMTVault across the languages of the world:
 - Engels, Eva. 2012. Scandinavian Negative Indefinites and Cyclic Linearization. Syntax 15. 109–141.
 - Enger, Hans-Olav. 2004. Scandinavian pancake sentences as semantic agreement. Nordic Journal of Linguistics 27. 5–34. [DOI: 10.1017/S0332586504001131](https://doi.org/10.1017/S0332586504001131)
 - England, Nora C. 1983. A Grammar of Mam, a Mayan language. Austin: University of Texas Press.
+- Englert, Sebastian. 1978. Idioma Rapanui: Gramática y diccionario del antiguo idioma de la Isla de Pascua. Santiago de Chile: Ediciones de la Universidad de Chile.
 - Enhebatu, Merden. 1995. Manyu kouyu yanjiu. Hohot: Neimonggu daxue chubanshe.
 - Epps, Patience. 2008. A Grammar of Hup. Berlin: Mouton de Gruyter.
 - Epps, Patience. 2009. Where differential object marking and split plurality intersect: Evidence from Hup. In Epps, Patience and Arkhipov, Alexandre (eds.), New challenges in typology: Transcending the borders and refining the distinctions, 85–104. Berlin, New York: Mouton de Gruyter. [DOI: 10.1515/9783110219067.2.85](https://doi.org/10.1515/9783110219067.2.85)
@@ -1963,6 +1966,7 @@ Distribution of examples in IMTVault across the languages of the world:
 - Mahootian, Shahrzad. 1997. Persian. (Descriptive grammars.) London: Routledge.
 - Maienborn, Claudia. 2007. Das Zustandspassiv: Grammatische Einordnung – Bildungsbeschränkung – Interpretationsspielraum. Zeitschrift für germanistische Linguistik 35. 83-144. [DOI: 10.1515/ZGL.2007.005](https://doi.org/10.1515/ZGL.2007.005)
 - Maki, Hideki and Uchibori, Asako and Miyagawa, Shigeru and Saito, Mamoru. 2008. Ga/no conversion. In Handbook of Japanese linguistics, 192-216. Oxford: Oxford University Press.
+- Makihara, Miki. 2001. Modern Rapanui adaptation of Spanish elements. Oceanic Linguistics 40. 191–223.
 - Malchukov, Andrej L. 2000. Dependency reversal in noun-attributive constructions. (LINCOM Studies in Language Typology, 3.) München: LINCOM Europa.
 - Malchukov, Andrej L. 2001. Imperative constructions in Even. In Xrakovskij, Victor S. (ed.), Typology of imperative constructions, 159–180. Munich: Lincom Europa.
 - Malchukov, Andrej L. 1995. Even. (Languages of the World/Materials, 12.) Munich: Lincom Europa.
@@ -2167,6 +2171,7 @@ Distribution of examples in IMTVault across the languages of the world:
 - Muhamedowa, Raihan. 2016. Kazakh. A comprehensive grammar. (Routledge Comprehensive Grammars.) London: Routledge.
 - Mukherjee, Aparna. 2008. Evidentiality: The Case of Bangla Naki.
 - Muller, Claude and Neveu, Franck and Blumenthal, Peter and Le Querler, Nicole. 2011. Verbes non prédicatifs et absence de sélection actancielle. In Au commencement était le verbe – Syntaxe, sémantique et cognition, Mélanges en l’honneur du Professeur Jacques François, 387-401. Peter Lang.
+- Mulloy, Emily Ross and Rapu, Sergio Alejo. 1977. Possession, dependence and responsibility in the Rapanui language. Journal of the Polynesian Society 86. 7–26.
 - Munaro, Nicola and Poletto, Cecilia. 2002. Ways of clausal typing. Rivista di Grammatica Generativa 27. 87-105.
 - Munn, Alan and Schmitt, Cristina. 2005. Number and indefinites. Lingua 115. 821-855. [DOI: 10.1016/j.lingua.2004.01.007](https://doi.org/10.1016/j.lingua.2004.01.007)
 - Munn, Alan and Schmitt, Cristina and Satterfield, Teresa and Tortora, Christina and Cresti, Diana. 2002. Bare Nouns and the Morphosyntax of Number. In Current Issues in Romance Languages: Selected papers from the 29th Linguistic Symposium on Romance Languages (LSRL), 217-231. Amsterdam: John Benjamins. [DOI: 10.1075/cilt.220.16mun](https://doi.org/10.1075/cilt.220.16mun)
@@ -2893,6 +2898,7 @@ Distribution of examples in IMTVault across the languages of the world:
 - Szwedek, Aleksander. 1976. Word order, sentence stress and reference in English and Polish. Edmonton, AB: Linguistic Research.
 - Tada, Hiroaki. 1992. Nominative objects in Japanese. Journal of Japanese Linguistics 14. 91-108. [DOI: 10.1515/jjl-1992-0105](https://doi.org/10.1515/jjl-1992-0105)
 - Tada, Hiroaki. 1993. A/A-bar partition in derivation.
+- Tahitienne, Académie. 1986. Grammaire de la langue tahitienne. Tahiti: Académie Tahitienne = Fare Vānaa.
 - Taine-Cheikh, Catherine. 2008. Arabe(s) et berbère En Contact: Le Cas. In Lafkioui, Mena and Brugnatelli, Vermondo (eds.), Berber in contact: Linguistic and sociolinguistic perspectives, 113–38. Cologne: Rüdiger Köppe.
 - Taine-Cheikh, Catherine. 2013. Grammaticalized uses of the verb raʔā in Arabic: A Maghrebian specificity?. In Lafkioui, Mena (ed.), African Arabic: Approaches to dialectology, 121–159. Berlin: De Gruyter.
 - Tait, James. 1973. Tammy Stays Put. The New Shetlander 103. 13.
@@ -3105,6 +3111,8 @@ Distribution of examples in IMTVault across the languages of the world:
 - Watters, David E. 2006. Notes on Kusunda grammar. A language isolate of Nepal. Himalayan Linguistic Archive 3. 1-182.
 - Watters, John R. 2017. East Benue-Congo: Nouns, pronouns, and verbs. (Niger-Congo Comparative Studies, 1.) Berlin: Language Science Press. [DOI: 10.5281/zenodo.1314306](https://doi.org/10.5281/zenodo.1314306)
 - Webelhuth, Gerd. 1992. Principles and parameters of syntactic saturation. Oxford: Oxford University Press.
+- Weber, Nancy. 2003. Marca de caso en rapa nui, lengua polinésica de Isla de Pascua. Valparaíso: Ediciones Universitarias de Valparaíso, Universidad Católica de Valparaíso.
+- Weber, Robert. 2003. Morfología verbal del rapa nui, lengua polinésica de Isla de Pascua, y su función en la narración. Valparaíso: Ediciones Universitarias de Valparaíso, Universidad Católica de Valparaíso.
 - Weber, David J. 1983. Relativization and Nominalized Clauses in Huallaga Quechua. Berkeley: University of California Press.
 - Weber, David J. 1989. A grammar of Huallaga (Huánuco) Quechua. Los Angeles, CA: University of California Press.
 - Wechsler, Stephen. 2004. Number as person. Empirical issues in syntax and semantics 5. 255-274.
