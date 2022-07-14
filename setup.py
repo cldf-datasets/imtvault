@@ -15,8 +15,8 @@ setup(
         ],
     },
     install_requires=[
+        'pyigt>=2.0',
         'linglit>=1.1',
-        'pyigt>=1.3',
         'cldfbench',
         'cldfviz[cartopy]',
     ],

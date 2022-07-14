@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/imtvault",
             "rdf:type": "prov:Entity",
-            "dc:created": "d37e16b",
+            "dc:created": "1e00da2",
             "dc:title": "Repository"
         },
         {
@@ -183,7 +183,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 66968,
+            "dc:extent": 66894,
             "tableSchema": {
                 "columns": [
                     {
@@ -265,6 +265,10 @@
                         "dc:description": "Mapping of gloss abbreviations used in the examples to descriptions of their meaning.",
                         "datatype": "json",
                         "name": "Abbreviations"
+                    },
+                    {
+                        "dc:description": "Identifies the location of the example in the underlying corpus",
+                        "name": "Corpus_Reference"
                     },
                     {
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",

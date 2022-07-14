@@ -67,6 +67,10 @@ class Dataset(BaseDataset):
                 'datatype': 'json',
             },
             {
+                'name': 'Corpus_Reference',
+                'dc:description': 'Identifies the location of the example in the underlying corpus',
+            },
+            {
                 'name': 'Source',
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#source',
                 'separator': ';'
@@ -133,6 +137,7 @@ class Dataset(BaseDataset):
                     Source=[Reference(k, (v or '').replace(';', ',')) for k, v in ex.Source],
                     Comment=ex.Comment,
                     Contribution_ID=pub.id,
+                    Corpus_Reference=ex.Corpus_Ref,
                 ))
                 contribs.update([pub.id])
                 lgs.update([ex.Language_ID])
