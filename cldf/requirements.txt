@@ -7,11 +7,11 @@ chardet==4.0.0
 cldfbench==1.11.0
 -e git+https://github.com/cldf-datasets/haigandschnellmulticast.git@a03269497020aeab5c862a0e8d294786d567c241#egg=cldfbench_haigandschnellmulticast
 -e git+https://github.com/cldf-datasets/hueblerstability@ac65addefd58d525abb871cedf8f203458a23b11#egg=cldfbench_hueblerstability
--e git+https://github.com/cldf-datasets/imtvault@1e00da2c49b8f63f464227fdf12a270491130593#egg=cldfbench_imtvault
+-e git+https://github.com/cldf-datasets/imtvault@0ee01d6690e0faa226aba406e1240437bb27cb97#egg=cldfbench_imtvault
 -e git+https://github.com/cldf-datasets/jipa.git@fa05fe2b7daae9de891f86718f44e40d09da4bcf#egg=cldfbench_jipa
 -e git+https://github.com/cldf-datasets/lgr@0d2d10485e54db650daa0c37f78b33f44ce23d4b#egg=cldfbench_lgr
 cldfcatalog==1.5.1
--e git+https://github.com/cldf/cldfviz.git@ec6534104e42aef43169656b9ee5a0b0ca770ab4#egg=cldfviz
+cldfviz==0.9.0
 clldutils==3.12.0
 colorama==0.4.5
 colorlog==4.8.0
@@ -46,7 +46,7 @@ pycldf==1.27.0
 pyclts==3.0.2
 pycountry==20.7.3
 pyglottolog==3.6.0
--e git+https://github.com/cldf/pyigt@c33f8ed29953c378e3112796ad4e6d6b93722c2f#egg=pyigt
+pyigt==2.0.0
 pylatexenc==2.10
 pyparsing==2.4.7
 pytest==6.2.3

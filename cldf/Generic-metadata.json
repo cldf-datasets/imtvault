@@ -15,7 +15,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/imtvault",
             "rdf:type": "prov:Entity",
-            "dc:created": "1e00da2",
+            "dc:created": "0ee01d6",
             "dc:title": "Repository"
         },
         {
@@ -27,13 +27,13 @@
         {
             "rdf:about": "https://github.com/langsci/raw_texfiles",
             "rdf:type": "prov:Entity",
-            "dc:created": "9e915a1",
+            "dc:created": "aa6d4d9",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/xrotwang/glossa_xml",
             "rdf:type": "prov:Entity",
-            "dc:created": "7e315aa",
+            "dc:created": "ed71f3c",
             "dc:title": "Repository"
         }
     ],
@@ -53,7 +53,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "Source publications from which IGT examples are extracted are listed as Contributions.",
-            "dc:extent": 843,
+            "dc:extent": 861,
             "tableSchema": {
                 "columns": [
                     {
@@ -102,7 +102,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1030,
+            "dc:extent": 1032,
             "rdfs:comment": "We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.",
             "tableSchema": {
                 "columns": [
@@ -183,7 +183,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 66894,
+            "dc:extent": 68556,
             "tableSchema": {
                 "columns": [
                     {

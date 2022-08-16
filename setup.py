@@ -18,7 +18,7 @@ setup(
         'pyigt>=2.0',
         'linglit>=1.1',
         'cldfbench',
-        'cldfviz[cartopy]',
+        'cldfviz[cartopy]>=0.9',
     ],
     extras_require={
         'test': [
