@@ -7,11 +7,11 @@ chardet==4.0.0
 cldfbench==1.11.0
 -e git+https://github.com/cldf-datasets/haigandschnellmulticast.git@a03269497020aeab5c862a0e8d294786d567c241#egg=cldfbench_haigandschnellmulticast
 -e git+https://github.com/cldf-datasets/hueblerstability@ac65addefd58d525abb871cedf8f203458a23b11#egg=cldfbench_hueblerstability
--e git+https://github.com/cldf-datasets/imtvault@0ee01d6690e0faa226aba406e1240437bb27cb97#egg=cldfbench_imtvault
+-e git+https://github.com/cldf-datasets/imtvault@3a099f2acf5550b87ff5d3811e78f5c6dc356394#egg=cldfbench_imtvault
 -e git+https://github.com/cldf-datasets/jipa.git@fa05fe2b7daae9de891f86718f44e40d09da4bcf#egg=cldfbench_jipa
--e git+https://github.com/cldf-datasets/lgr@0d2d10485e54db650daa0c37f78b33f44ce23d4b#egg=cldfbench_lgr
 cldfcatalog==1.5.1
-cldfviz==0.9.0
+-e git+https://github.com/cldf/cldfviz.git@ba770d4c8c0511d37f51d7117c50ed71b747daf3#egg=cldfviz
+cldfzenodo==0.2.0
 clldutils==3.12.0
 colorama==0.4.5
 colorlog==4.8.0
@@ -21,6 +21,7 @@ datasette==0.58.1
 decorator==4.4.2
 gitdb==4.0.7
 greenlet==1.0.0
+html5lib==1.1
 idna==2.10
 iniconfig==1.1.1
 isodate==0.6.0
@@ -33,8 +34,9 @@ lxml==4.8.0
 Markdown==3.3.4
 MarkupSafe==2.0.1
 matplotlib==3.5.1
+nameparser==1.0.6
 networkx==2.5.1
-newick==1.0.0
+newick==1.3.2
 numpy==1.20.3
 openpyxl==3.0.7
 packaging==20.9
@@ -42,7 +44,7 @@ pluggy==0.13.1
 purl==1.5
 py==1.10.0
 pybtex==0.24.0
-pycldf==1.27.0
+pycldf==1.33.0
 pyclts==3.0.2
 pycountry==20.7.3
 pyglottolog==3.6.0
@@ -51,7 +53,9 @@ pylatexenc==2.10
 pyparsing==2.4.7
 pytest==6.2.3
 python-dateutil==2.8.1
+python-frontmatter==1.0.0
 python-Levenshtein==0.12.2
+python-nexus==2.9.0
 pytz==2021.1
 rdflib==6.1.1
 regex==2021.4.4
@@ -68,10 +72,12 @@ tabulate==0.8.9
 termcolor==1.1.0
 TexSoup==0.3.1
 thefuzz==0.19.0
+toml==0.10.2
 tqdm==4.60.0
 Unidecode==1.2.0
 uritemplate==3.0.1
 urllib3==1.26.5
+webencodings==0.5.1
 xlrd==2.0.1
 yattag==1.14.0
 zenodoclient==0.4.1
