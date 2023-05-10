@@ -5,7 +5,9 @@
             "@language": "en"
         }
     ],
+    "dc:bibliographicCitation": "Kr\u00e4mer, Thomas, and Sebastian Nordhoff. 2022. \"IMTVault: Extracting and Enriching Low-resource Language Interlinear Glossed Text from Grammatical Descriptions and Typological Survey Articles: Proceedings of The 8th Workshop on Linked Data in Linguistics within the 13th Language Resources and Evaluation Conference.\" 13th Language Resources and Evaluation Conference lREC 2022, LREC 2022, Marseille, 24.06.2022.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Generic",
+    "dc:description": "A collection of Interlinear Glossed Text extracted from linguistic literature",
     "dc:identifier": "https://imtvault.org",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:source": "sources.bib",
@@ -15,32 +17,32 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/imtvault",
             "rdf:type": "prov:Entity",
-            "dc:created": "3a099f2",
+            "dc:created": "v1.0",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.6",
+            "dc:created": "v4.7",
             "dc:title": "Glottolog"
-        },
-        {
-            "rdf:about": "https://github.com/langsci/raw_texfiles",
-            "rdf:type": "prov:Entity",
-            "dc:created": "d2bc41e",
-            "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/xrotwang/glossa_xml",
             "rdf:type": "prov:Entity",
-            "dc:created": "d74ed03",
+            "dc:created": "c947ce3",
+            "dc:title": "Repository"
+        },
+        {
+            "rdf:about": "https://github.com/langsci/raw_texfiles",
+            "rdf:type": "prov:Entity",
+            "dc:created": "bf70318",
             "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.10.6"
         },
         {
             "dc:title": "python-packages",
@@ -53,7 +55,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "Source publications from which IGT examples are extracted are listed as Contributions.",
-            "dc:extent": 895,
+            "dc:extent": 969,
             "tableSchema": {
                 "columns": [
                     {
@@ -102,7 +104,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1037,
+            "dc:extent": 1116,
             "rdfs:comment": "We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.",
             "tableSchema": {
                 "columns": [
@@ -183,7 +185,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 69658,
+            "dc:extent": 76445,
             "tableSchema": {
                 "columns": [
                     {
