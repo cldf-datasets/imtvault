@@ -6,6 +6,7 @@ Cartopy==0.21.1
 certifi==2022.12.7
 cldfbench==1.13.0
 -e git+https://github.com/cldf-datasets/doreco/@a883a9d774705882a566e727fb4d44936c2dcf58#egg=cldfbench_doreco
+-e git+https://github.com/cldf-datasets/imtvault@0017e20a78d55076a5198ea179edafd91fa89163#egg=cldfbench_imtvault
 cldfcatalog==1.5.1
 -e git+https://github.com/cldf/cldfviz@cc5879950a1abf0fd0397d4cf5d38956c756dab2#egg=cldfviz
 cldfzenodo==1.1.0
@@ -27,7 +28,7 @@ jmespath==1.0.1
 jsonschema==4.17.3
 kiwisolver==1.4.4
 Levenshtein==0.20.9
--e git+https://github.com/cldf/linglit@f492ccfc4ee47f36ef6f082991dffd90c4152dba#egg=linglit
+-e git+https://github.com/cldf/linglit@c7c55b4149647f8974228caf7a7548bd74165dbf#egg=linglit
 lxml==4.9.2
 Markdown==3.4.1
 MarkupSafe==2.1.1
