@@ -15,8 +15,8 @@ property | value
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://imtvault.org
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/imtvault
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/imtvault/tree/0017e20">cldf-datasets/imtvault v1.0-1-g0017e20</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.7">Glottolog v4.7</a></li><li><a href="https://github.com/xrotwang/glossa_xml/tree/c947ce3">xrotwang/glossa_xml c947ce3</a></li><li><a href="https://github.com/langsci/raw_texfiles/tree/bf70318">langsci/raw_texfiles bf70318</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/imtvault/tree/0fea706">cldf-datasets/imtvault v1.0-2-g0fea706</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.8">Glottolog v4.8</a></li><li><a href="https://github.com/xrotwang/glossa_xml/tree/50441cf">xrotwang/glossa_xml 50441cf</a></li><li><a href="https://github.com/langsci/raw_texfiles/tree/56dd5e7">langsci/raw_texfiles 56dd5e7</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | imtvault
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
@@ -28,7 +28,7 @@ Source publications from which IGT examples are extracted are listed as Contribu
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ContributionTable](http://cldf.clld.org/v1.0/terms.rdf#ContributionTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 969
+[dc:extent](http://purl.org/dc/terms/extent) | 1025
 
 
 ### Columns
@@ -47,7 +47,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1116
+[dc:extent](http://purl.org/dc/terms/extent) | 1132
 [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment) | We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.
 
 
@@ -70,7 +70,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ExampleTable](http://cldf.clld.org/v1.0/terms.rdf#ExampleTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 76445
+[dc:extent](http://purl.org/dc/terms/extent) | 79522
 
 
 ### Columns

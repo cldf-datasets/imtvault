@@ -17,32 +17,32 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/imtvault",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-1-g0017e20",
+            "dc:created": "v1.0-2-g0fea706",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.7",
+            "dc:created": "v4.8",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/xrotwang/glossa_xml",
             "rdf:type": "prov:Entity",
-            "dc:created": "c947ce3",
+            "dc:created": "50441cf",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/langsci/raw_texfiles",
             "rdf:type": "prov:Entity",
-            "dc:created": "bf70318",
+            "dc:created": "56dd5e7",
             "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.10.6"
+            "dc:description": "3.10.12"
         },
         {
             "dc:title": "python-packages",
@@ -55,7 +55,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "Source publications from which IGT examples are extracted are listed as Contributions.",
-            "dc:extent": 969,
+            "dc:extent": 1025,
             "tableSchema": {
                 "columns": [
                     {
@@ -104,7 +104,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1116,
+            "dc:extent": 1132,
             "rdfs:comment": "We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.",
             "tableSchema": {
                 "columns": [
@@ -185,7 +185,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 76445,
+            "dc:extent": 79522,
             "tableSchema": {
                 "columns": [
                     {

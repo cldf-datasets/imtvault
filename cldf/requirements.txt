@@ -4,11 +4,12 @@ Babel==2.11.0
 bs4==0.0.1
 Cartopy==0.21.1
 certifi==2022.12.7
-cldfbench==1.13.0
--e git+https://github.com/cldf-datasets/doreco/@a883a9d774705882a566e727fb4d44936c2dcf58#egg=cldfbench_doreco
--e git+https://github.com/cldf-datasets/imtvault@0017e20a78d55076a5198ea179edafd91fa89163#egg=cldfbench_imtvault
+-e git+https://github.com/cldf/cldfbench@faf74f8780e9e675be58671847cee871985e9292#egg=cldfbench
+-e git+https://github.com/cldf-datasets/doreco/@fefcef2aebaaa7f9c843ed793073b17381c271f7#egg=cldfbench_doreco
+-e git+https://github.com/cldf-datasets/imtvault@0fea706106c6e48291228570cc19fd01892b4eb8#egg=cldfbench_imtvault
+-e git+https://github.com/cldf-datasets/rangelovvanuatu@f96ca8f58792d9bbd2dc7d80a62540e79639d6e1#egg=cldfbench_rangelovvanuatu
 cldfcatalog==1.5.1
--e git+https://github.com/cldf/cldfviz@cc5879950a1abf0fd0397d4cf5d38956c756dab2#egg=cldfviz
+-e git+https://github.com/cldf/cldfviz@a72795251eb655e81dd43bb54b8c917390a7c8ec#egg=cldfviz
 cldfzenodo==1.1.0
 clldutils==3.19.0
 colorama==0.4.6
