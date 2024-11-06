@@ -3,10 +3,10 @@
 """
 import subprocess
 
-from cldfbench_imtvault import Dataset
-
 
 def run(args):
+    from cldfbench_imtvault import Dataset
+
     ds = Dataset()
     readme = ds.dir / 'README.md'
     subprocess.check_call([

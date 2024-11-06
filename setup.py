@@ -4,6 +4,7 @@ from setuptools import setup
 setup(
     name='cldfbench_imtvault',
     py_modules=['cldfbench_imtvault'],
+    packages=['imtvaultcommands'],
     include_package_data=True,
     zip_safe=False,
     entry_points={

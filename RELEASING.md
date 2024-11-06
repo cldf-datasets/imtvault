@@ -10,9 +10,10 @@ preferably in a separate virtual environment.
   ```shell
   cldfbench download cldfbench_imtvault.py
   ```
-- Recreate the CLDF running
+- Recreate the CLDF running (~10mins)
   ```shell
-  cldfbench makecldf --with-cldfreadme --with-zenodo cldfbench_imtvault.py --glottolog-version v4.7
+  cldfbench makecldf --with-cldfreadme --with-zenodo cldfbench_imtvault.py --glottolog-version v5.1
+  cldf validate cldf
   ```
 - Recreate the README running
   ```shell

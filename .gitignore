@@ -128,4 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/
-
+raw/cldf/*.json
+raw/cldf/*/

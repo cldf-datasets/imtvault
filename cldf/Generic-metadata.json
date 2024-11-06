@@ -17,32 +17,32 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/imtvault",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-2-g0fea706",
+            "dc:created": "v1.1",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.1",
             "dc:title": "Glottolog"
-        },
-        {
-            "rdf:about": "https://github.com/xrotwang/glossa_xml",
-            "rdf:type": "prov:Entity",
-            "dc:created": "50441cf",
-            "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/langsci/raw_texfiles",
             "rdf:type": "prov:Entity",
-            "dc:created": "56dd5e7",
+            "dc:created": "2dcdd57",
+            "dc:title": "Repository"
+        },
+        {
+            "rdf:about": "https://github.com/xrotwang/glossa_xml",
+            "rdf:type": "prov:Entity",
+            "dc:created": "e66218c",
             "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.10.12"
+            "dc:description": "3.12.3"
         },
         {
             "dc:title": "python-packages",
@@ -55,7 +55,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "Source publications from which IGT examples are extracted are listed as Contributions.",
-            "dc:extent": 1025,
+            "dc:extent": 1128,
             "tableSchema": {
                 "columns": [
                     {
@@ -104,7 +104,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1132,
+            "dc:extent": 1611,
             "rdfs:comment": "We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.",
             "tableSchema": {
                 "columns": [
@@ -185,7 +185,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 79522,
+            "dc:extent": 121596,
             "tableSchema": {
                 "columns": [
                     {
@@ -247,6 +247,17 @@
                         "name": "Meta_Language_ID"
                     },
                     {
+                        "dc:description": "The level of conformance of the example with the Leipzig Glossing Rules",
+                        "dc:extent": "singlevalued",
+                        "datatype": {
+                            "base": "string",
+                            "format": "WORD_ALIGNED|MORPHEME_ALIGNED"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#lgrConformance",
+                        "required": false,
+                        "name": "LGR_Conformance"
+                    },
+                    {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                         "required": false,
@@ -255,7 +266,7 @@
                     {
                         "datatype": {
                             "base": "string",
-                            "format": "LGRConformance\\.MORPHEME_ALIGNED|LGRConformance\\.WORD_ALIGNED|LGRConformance\\.UNALIGNED"
+                            "format": "2|1|0"
                         },
                         "name": "LGR_Conformance_Level"
                     },

@@ -23,6 +23,7 @@ class Dataset(BaseDataset):
     def cmd_download(self, args):
         subprocess.check_call(
             'git -C {} pull --recurse-submodules'.format(self.dir.resolve()), shell=True)
+        
 
     def _schema(self, cldf):
         t = cldf.add_component(
@@ -94,7 +95,12 @@ class Dataset(BaseDataset):
         sources, langs = {}, set()
         lgs, contribs = collections.Counter(), collections.Counter()
         for pub in tqdm(linglit.iter_publications(
-                self.raw_dir, glottolog=args.glottolog.api, with_examples=True)):
+            self.raw_dir, 
+            glottolog=args.glottolog.api, 
+            with_examples=True,
+            exclude=[#'glossa', 'langsci'
+            ],
+        )):
             args.writer.objects['ContributionTable'].append(dict(
                 ID=pub.id,
                 Name=pub.record.title,
