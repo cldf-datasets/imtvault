@@ -1,23 +1,30 @@
+affine==2.4.0
+antimeridian==0.3.11
 appdirs==1.4.4
 arrow==1.3.0
-attrs==24.2.0
+attrs==25.3.0
 babel==2.16.0
 bibtexparser==2.0.0b7
 bs4==0.0.2
 Cartopy==0.24.1
 certifi==2024.8.30
 chardet==5.2.0
-cldfbench==1.14.0
--e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault
+cldfbench==1.14.2
+-e git+https://github.com/cldf-datasets/barlowhandandfive@4132121bbd7bbba7767e629ccac8523456e2bafd#egg=cldfbench_barlowhandandfive
+-e git+https://github.com/cldf-datasets/doreco/@bdda65ed3525a3f1e089a40f780e5b9b6080fd54#egg=cldfbench_doreco
+-e git+https://github.com/cldf-datasets/imtvault@2d1c7dba170991c8458c34c8820f8c03560598d5#egg=cldfbench_imtvault
 cldfcatalog==1.5.1
-cldfviz==1.3.0
+cldfgeojson==2.0.0
+-e git+https://github.com/cldf/cldfviz@4dbeafbcab441c43799fab44e55f62b27a017dc0#egg=cldfviz
 cldfzenodo==2.1.2
+click==8.1.7
 clldutils==3.23.1
 colorama==0.4.6
 colorlog==6.8.2
 commonnexus==1.9.2
 csvw==3.5.1
 cycler==0.12.1
+fiona==1.10.1
 gitdb==4.0.11
 greenlet==3.1.1
 idna==3.10
@@ -27,8 +34,9 @@ Jinja2==3.1.4
 jmespath==1.0.1
 jsonschema==4.23.0
 kiwisolver==1.4.7
--e git+https://github.com/cldf/linglit@4db7e449f966eb9432e77bfa44509688b7c97707#egg=linglit
+-e git+https://github.com/cldf/linglit@396214babbdcd3a9334e578c8aa498f38139a937#egg=linglit
 lxml==5.3.0
+Mako==1.3.6
 Markdown==3.7
 MarkupSafe==3.0.2
 matplotlib==3.9.2
@@ -40,18 +48,22 @@ openpyxl==3.1.5
 packaging==24.1
 pluggy==1.5.0
 pybtex==0.24.0
-pycldf==1.39.0
+pycldf==1.43.0
+pyclts==3.2.0
 pycountry==24.6.1
+pydub==0.25.1
+-e git+https://github.com/glottography/pyglottography@c272c1950f1f39247c979f4cc0d884c261801b78#egg=pyglottography
 pyglottolog==3.13.0
 pyigt==2.1.0
 pylatexenc==2.10
-pyparsing==3.2.0
+pyparsing==3.2.3
 pyproj==3.7.0
 pytest==8.3.3
 python-dateutil==2.9.0.post0
 python-frontmatter==1.1.0
 RapidFuzz==3.10.0
-rdflib==7.1.0
+rasterio==1.4.2
+rdflib==7.1.4
 referencing==0.35.1
 regex==2024.9.11
 reportlab==4.2.5
@@ -59,9 +71,11 @@ requests==2.32.3
 rfc3986==1.5.0
 segments==2.2.1
 shapely==2.0.6
+simplepybtex==0.1.0
 six==1.16.0
 smmap==5.0.1
 soupsieve==2.6
+spherely==0.1.0
 SQLAlchemy==1.4.54
 tabulate==0.9.0
 termcolor==2.5.0
@@ -70,8 +84,9 @@ thefuzz==0.22.1
 toyplot==2.0.0
 toytree==2.0.5
 tqdm==4.66.5
+typing_extensions==4.13.2
 Unidecode==1.3.8
 uritemplate==4.1.1
-urllib3==2.2.3
+urllib3==2.4.0
 xlrd==2.0.1
 zenodoclient==0.5.1

@@ -3,6 +3,13 @@
 Changes between releases of the IMTVault dataset.
 
 
+## [v1.3] - 2026-05-01
+
+- Compiled against Glottolog 5.3.
+- IGT examples from two more CLDF datasets.
+- Updated Glossa and Language Science Press IGT examples.
+
+
 ## [v1.2] - 2024-11-06
 
 - Compiled against Glottolog 5.1.

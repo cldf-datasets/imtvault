@@ -12,7 +12,7 @@ preferably in a separate virtual environment.
   ```
 - Recreate the CLDF running (~10mins)
   ```shell
-  cldfbench makecldf --with-cldfreadme --with-zenodo cldfbench_imtvault.py --glottolog-version v5.1
+  cldfbench makecldf --with-cldfreadme --with-zenodo cldfbench_imtvault.py --glottolog-version v5.3
   cldf validate cldf
   ```
 - Recreate the README running

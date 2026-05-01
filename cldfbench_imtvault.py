@@ -23,7 +23,6 @@ class Dataset(BaseDataset):
     def cmd_download(self, args):
         subprocess.check_call(
             'git -C {} pull --recurse-submodules'.format(self.dir.resolve()), shell=True)
-        
 
     def _schema(self, cldf):
         t = cldf.add_component(
@@ -98,7 +97,10 @@ class Dataset(BaseDataset):
             self.raw_dir, 
             glottolog=args.glottolog.api, 
             with_examples=True,
-            exclude=[#'glossa', 'langsci'
+            exclude=[
+                #'glossa',
+                #'langsci',
+                #'cldf',
             ],
         )):
             args.writer.objects['ContributionTable'].append(dict(
@@ -129,6 +131,11 @@ class Dataset(BaseDataset):
                     ))
                     langs.add(ex.Meta_Language_ID)
                 igt = ex.as_igt()
+                try:
+                    src = [Reference(k, (v or '').replace(';', ',')) for k, v in ex.Source]
+                except:
+                    print('---', [(k, v) for k, v in ex.Source])
+                    src = []
                 args.writer.objects['ExampleTable'].append(dict(
                     ID=ex.ID,
                     Language_ID=ex.Language_ID or 'undefined',
@@ -140,7 +147,7 @@ class Dataset(BaseDataset):
                     Translated_Text=ex.Translated_Text,
                     LGR_Conformance_Level=str(igt.conformance),
                     Abbreviations=igt.gloss_abbrs if igt.conformance == LGRConformance.MORPHEME_ALIGNED else {},
-                    Source=[Reference(k, (v or '').replace(';', ',')) for k, v in ex.Source],
+                    Source=src,
                     Comment=ex.Comment,
                     Contribution_ID=pub.id,
                     Corpus_Reference=ex.Corpus_Ref,

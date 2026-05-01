@@ -17,25 +17,25 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/imtvault",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.1",
+            "dc:created": "v1.2",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.1",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/langsci/raw_texfiles",
             "rdf:type": "prov:Entity",
-            "dc:created": "2dcdd57",
+            "dc:created": "fcac2f0",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/xrotwang/glossa_xml",
             "rdf:type": "prov:Entity",
-            "dc:created": "e66218c",
+            "dc:created": "d4627a1",
             "dc:title": "Repository"
         }
     ],
@@ -55,7 +55,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
             "dc:description": "Source publications from which IGT examples are extracted are listed as Contributions.",
-            "dc:extent": 1128,
+            "dc:extent": 1284,
             "tableSchema": {
                 "columns": [
                     {
@@ -104,7 +104,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1611,
+            "dc:extent": 1735,
             "rdfs:comment": "We add a pseudo-language with ID `undefined` to be able to add examples with unknown object language.",
             "tableSchema": {
                 "columns": [
@@ -185,7 +185,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
-            "dc:extent": 121596,
+            "dc:extent": 147329,
             "tableSchema": {
                 "columns": [
                     {
